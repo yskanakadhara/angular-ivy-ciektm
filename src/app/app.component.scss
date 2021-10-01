@@ -1,0 +1,142 @@
+:host {
+  display: block;
+  flex-direction: column;
+}
+
+.header {
+  background: rgb(182, 182, 189);
+  height: 50px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  background: #fff;
+}
+
+.left-content {
+  height: 50px !important;
+  flex: 1 !important;
+  background: #fff;
+}
+
+.right-content {
+  height: 100%;
+  flex: 2;
+  background: #fff;
+  display: flex;
+}
+
+.right-content > * {
+  align-self: center;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+body{
+  margin:0;
+  background-color:#36454F;
+}
+
+h1,h3,h2{
+  color:#fff;
+}
+
+#container {
+  width: 800px;
+  height: 800px;
+  border: 1px dotted #ddd;
+  margin: 1em auto;
+  font-family: auto;
+}
+
+.india li::before {
+	font-weight: 200;
+  color: #dc67ce;
+  content: '■';
+  padding: 5px;
+  margin-bottom:20px ;
+  left: -0.8em;          
+  font-size: 1.2em; 
+  margin: 20px 0px;   
+  text-align: center;
+  list-style-position: inside;  
+}
+.nepal  li::before {
+  color: #67b7dc;
+  content: '■';
+  padding: 5px;
+  margin-bottom:20px ;
+  left: -0.8em;          
+  font-size: 1.2em; 
+  margin: 20px 0px;  
+}
+.bang  li::before {
+  color: #6771dc;
+  content: '■';
+  padding: 5px;
+  margin-bottom:20px ;
+  left: -0.8em;          
+  font-size: 1.2em; 
+  margin: 20px 0px;  
+}
+.pakistan  li::before {
+  color: #a367dc;
+  content: '■';
+  padding: 5px;
+  margin-bottom:20px ;
+  left: -0.8em;          
+  font-size: 1.2em; 
+  margin: 20px 0px;  
+}
+.bhutan  li::before {
+  color: #dc6788;
+  content: '■';
+  padding: 5px;
+  margin-bottom:20px ;
+  left: -0.8em;          
+  font-size: 1.2em; 
+  margin: 20px 0px;  
+}
+.sri  li::before {
+  color: #dc8c67;
+  content: '■';
+  padding: 5px;
+  margin-bottom:20px ;
+  left: -0.8em;          
+  font-size: 1.2em; 
+  margin: 20px 0px;  
+}
+.maldives  li::before {
+  color: #dcd267;
+  content: '■';
+  padding: 5px;
+  margin-bottom:20px ;
+  left: -0.8em;          
+  font-size: 1.2em; 
+  margin: 20px 0px;  
+}
+
+li{
+  list-style-type: square !important;
+  display: inline-block ;
+  padding: 10px;
+  font-family: auto;
+  font-weight: inherit;
+  font-size: large;
+ }
+
+ul{
+  padding: 4px;
+  margin-left: 560px;
+  }
+
+h2{
+  font-family: auto;
+  text-align: center;
+  margin-top: 3px;
+  }
